@@ -81,6 +81,8 @@ def main_loop():
 
         text_surface = font.render(f'Очки: {score}', True, (255, 255, 255))
         screen.blit(text_surface, (10, 10))
+        P1 = font.render('P1', True, (255, 255, 255))
+        screen.blit(P1, (player.x, player.y))
 
         pygame.display.flip()
 
