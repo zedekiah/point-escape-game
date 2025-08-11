@@ -1,10 +1,13 @@
 [project]
-name = "python-mini-game"
+name = "point-escape-game"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = ["pygame>=2.6.1"]
+dependencies = [
+    "msgspec>=0.19.0",
+    "pygame>=2.6.1",
+]
 
 
 [tool.ruff]
